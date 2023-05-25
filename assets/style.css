@@ -4,6 +4,10 @@
 
 body {
   font-family: fantasy;
+  background-image: url(https://i.postimg.cc/qBKd0d7v/winel-sutanto-2oeg-F67ik-OM-unsplash.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
 }
 
 h1 {
