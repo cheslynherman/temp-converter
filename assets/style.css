@@ -60,6 +60,11 @@ button {
   font-weight: 500;
 }
 
+.clear-btn {
+    width: 10vh;
+    border-radius: 25px;
+}
+
 button:hover {
   animation: shake3856 0.3s linear infinite both;
 }
