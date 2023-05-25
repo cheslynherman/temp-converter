@@ -5,7 +5,7 @@ function calculate(){
 
     calculation= ((fahrenheit-32)/1.8).toFixed(2)
     results.textContent=calculation
-    document.getElementById("results").innerHTML = output;
+    // document.getElementById("results").innerHTML = output;
 }
 function convert() {
     let calculate;
