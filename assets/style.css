@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: fantasy;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.temp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.f-container {
+  margin: 5px;
+  padding: 10px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  height: 25vh;
+  width: 60vh;
+}
+
+.c-container {
+  margin: 5px;
+  padding: 10px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  height: 25vh;
+  width: 60vh;
+}
+
+input {
+  border: 2px solid black;
+  height: 27px;
+}
+
+.clear-btn {
+  display: block;
+  margin: auto;
+}
+
+button {
+  padding: 5px;
+  border: none;
+  background: black;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+button:hover {
+  animation: shake3856 0.3s linear infinite both;
+}
+
+@keyframes shake3856 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+/* found hover function on this link: https://uiverse.io/Botwe-Felix5820/nasty-deer-97 and added my own styling to go with my page */
+
+@media screen and (max-width: 394px) {
+    .temp-container {
+        flex-direction: column;
+    }
+    .c-container {
+        width: 90%;
+    }
+    .f-container {
+        width: 90%;
+    }
+}

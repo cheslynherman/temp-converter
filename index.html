@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Temperature Converter</h1>
+      <div class="temp-container">
+        <div class="f-container">
+          <label>Fahrenheit</label>
+          <input type="text" id="convert" />
+          <button onclick="calculate()">Convert</button>
+          <h3>Celsius</h3>
+          <p id="results"></p>
+        </div>
+        <div class="c-container">
+          <label>Celsius</label>
+          <input type="number" id="converter" />
+          <button onclick="convert()">Convert</button>
+          <h3>Fahrenheit</h3>
+          <p id="results-f"></p>
+        </div>
+      </div>
+      <button class="clear-btn" onclick="reloadPage()">Clear</button>
+    </div>
+    <script src="./assets/index.js"></script>
+  </body>
 </html>
